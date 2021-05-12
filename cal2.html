@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>:: My Calculator App ::</title>
+		<script src="js/newScript.js"></script>
+	</head>
+	<body>
+		<div id="calc-container">
+			<div>
+				<table border="1">
+					<tr> <!-- Screen row -->
+						<td colspan="4"><div id="screen" style="text-align:right;margin-bottom:10px;">0.</div></td>
+					</tr>
+					<tr> <!-- clear Del On/Off -->
+						<td><button onclick="buttonClick('clr')">Clr</button></td>
+						<td><button onclick="buttonClick('del')">Del</button></td>
+						<td></td>
+						<td><button onclick="buttonClick('on_off')">On/Off</button></td>
+					</tr>
+					<tr> <!-- 7 8 9 + -->
+						<td><button onclick="buttonClick(7)">7</button></td>
+						<td><button onclick="buttonClick(8)">8</button></td>
+						<td><button onclick="buttonClick(9)">9</button></td>
+						<td><button onclick="buttonClick('+')">+</button></td>
+					</tr>
+					<tr> <!-- 4 5 6 - -->
+						<td><button onclick="buttonClick(4)">4</button></td>
+						<td><button onclick="buttonClick(5)">5</button></td>
+						<td><button onclick="buttonClick(6)">6</button></td>
+						<td><button onclick="buttonClick('-')">-</button></td>
+					</tr>
+					<tr> <!-- 1 2 3 / -->
+						<td><button onclick="buttonClick(1)">1</button></td>
+						<td><button onclick="buttonClick(2)">2</button></td>
+						<td><button onclick="buttonClick(3)">3</button></td>
+						<td><button onclick="buttonClick('/')">/</button></td>
+					</tr>
+					<tr> <!-- 0 . = * -->
+						<td><button onclick="buttonClick(0)">0</button></td>
+						<td><button onclick="buttonClick('.')">.</button></td>
+						<td><button onclick="buttonClick('=')">=</button></td>
+						<td><button onclick="buttonClick('*')">*</button></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</body>
+</html>

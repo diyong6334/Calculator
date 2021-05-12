@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Simple calculator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<form id="calform" Name = "cal">
+<input name ="display" style="width:675px;height:100px;text-align:center;background-color:black;"></br>
+<input type = button value = "7" onClick="cal.display.value+='7'">
+<input type = button value = "8" onClick="cal.display.value+='8'">
+<input type = button value = "9" onClick="cal.display.value+='9'">
+<input type = button value = "+" onClick="cal.display.value+='+'"> </br>
+<input type = button value = "4" onClick="cal.display.value+='4'">
+<input type = button value = "5" onClick="cal.display.value+='5'">
+<input type = button value = "6" onClick="cal.display.value+='6'">
+<input type = button value = "-" onClick="cal.display.value+='-'"> </br>
+<input type = button value = "1" onClick="cal.display.value+='1'">
+<input type = button value = "2" onClick="cal.display.value+='2'">
+<input type = button value = "3" onClick="cal.display.value+='3'">
+<input type = button value = "*" onClick="cal.display.value+='*'"></br>
+<input type = button value = "0" onClick="cal.display.value+='0'">
+<input type = button value = "c" onClick="cal.display.value+=''">
+<input type = button value = "=" onClick="cal.display.value = eval(cal.display.value)">
+<input type = button value = "&#247;" onClick="cal.display.value+='/'">
+		
+		</form>
+	</body>
+</html>
